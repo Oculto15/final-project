@@ -30,6 +30,7 @@ function displayTemples(temples) {
     let closure2023N3 = document.createElement('p');
     let closure2023N4 = document.createElement('p');
     let l1 = document.createElement('li');
+    // let div = document.createElement('div')
 
     templeName.textContent = `${temples["templeName"]}`;
     contact.textContent = "Contact Information";
@@ -68,6 +69,7 @@ function displayTemples(temples) {
     templeName.className = 'near'
     templeImg.className = 'center-img';
     l1.textContent = `${temples["describe"]}`;
+    
     
 
  
